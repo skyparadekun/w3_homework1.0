@@ -1,0 +1,19 @@
+.title{
+	margin-left:100px;
+	color:#337ab7;
+}
+.main{
+	width:400px;
+	margin:45px auto 0 auto;
+	border:5px solid #eeeeee;
+	background:#fbfbfb;
+}
+.text1{
+	margin:40px 0 20px 120px;
+}
+.text2{
+	margin:50px 0 20px 120px;
+}	
+.button{
+	margin:20px 0px 50px 160px;
+}
