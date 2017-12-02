@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+    <link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="../static/css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <title>个人主页</title>
+	<script>
+		function fake_half()
+        {
+            var obj=document.getElementById("background");
+            obj.style.animation="fake_half 0.5s linear";
+            obj.style.animationFillMode="forwards";
+        }
+        function unfake_half()
+        {
+            var obj=document.getElementById("background");
+            obj.style.animation="unfake_half 0.5s linear";
+            obj.style.animationFillMode="forwards";
+        }
+		function text1()
+		{
+			
+		}
+		function text2()
+		{
+		
+		}
+		function text3()
+		{
+		
+		}
+	</script>
+</head>
+<body>
+    <div class="tot">
+        <div id="background">
+           <div class="head">
+				<p class="welcome">欢迎来到我的个人主页</p>
+                <div class="register1">
+                    <a href="{% url 'Register' %}"><button class="button1"><b>访 客 登 录</b></button></a>
+                </div>
+				<div class="register2">
+                    <a href="{% url 'register' %}"><button class="button1"><b>注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册</b></button></a>
+                </div>
+            </div>
+            <div class="body">
+				<div class="name1">
+					<b>生活动态</b>
+				</div>
+				<div class="border">
+					<div class="image1">
+						<b>我和老爸老妈</b>
+						<p class="image_1">游武大</p>
+					</div>
+					<div class="image2">
+						<img src="../static/image/image1.jpg" class="image_2" />
+					</div>
+					<div class="image3">
+						<b>A HAPPY DAY!</b>
+					</div>
+					<div class="image_3">
+						<b>2017年11月19日</b>
+					</div>
+				</div>
+            </div>
+            <div class="foot">
+                <div class="imformation">
+					<div class="buttongroup">
+						<div class="b_group1">
+							<button>基本信息</button>
+						</div>
+						<div class="b_group2">
+							<button>个人爱好</button>
+						</div>
+						<div class="b_group3">
+							<button>我的梦想</button>
+						</div>
+					</div>
+					<div class="text">
+					</div>
+					<div class="itme">
+						<p>自我介绍</p>
+					</div>
+                </div>
+            </div>
+			<div class="comment">
+				<p class="comment_title">留言区</p>
+				<div class="bin_comment">
+						{%for comment in comment_list%}
+						<div class="content">
+						<div class="content_b">
+						
+							<p>{{comment.writer}} ：</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{comment.comment}}</p>
+						</div>
+						</div>
+						{%endfor%}
+				</div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+</html>

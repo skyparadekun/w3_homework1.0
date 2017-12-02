@@ -1,0 +1,284 @@
+﻿body {
+    width:100%;
+    background-color:black;
+}
+.tot{
+
+}
+.background{
+    position:absolute;
+    left:0;right:0;top:0;bottom:0;
+    background:url('') no-repeat;
+    background-position: center center;
+    z-index:-1;
+}
+@-webkit-keyframes fake{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+@-webkit-keyframes unfake{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@-webkit-keyframes fake_half{
+    from{opacity: 1;}
+    to{opacity: 0.5;}
+}
+@-webkit-keyframes unfake_half{
+    from{opacity: 0.5;}
+    to{opacity: 1;}
+}
+.head {
+    width: 100%;
+    background-color: darkslategrey;
+    height:100px;
+}
+.Glyph{
+
+}
+.welcome{
+	position:absolute;
+	font-size:50px;
+	color:silver;
+	font-weight:bold;
+	top:10px;
+	left:500px;
+}
+.register2{
+    position:absolute;
+    right:20px;
+    top:20px;
+}
+.register1{
+	position:absolute;
+	top:20px;
+	right:160px;
+}
+.button1 {
+    border-radius: 5px;
+    background-color:midnightblue;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-style: none;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    box-shadow: 0px 0px 20px #888888;
+	transition-duration:0.6s;
+}
+.button1:hover{
+	background-color:lightblue;
+}
+.body{
+    background-color:cadetblue;
+    height:300px;
+    position:relative;
+}
+.name1{
+	position:absolute;
+	top:110px;
+	left:80px;
+	font-size:50px;
+	font-weight:10px;
+}
+.image1 {
+    float: left;
+    font-size: 30px;
+    color:burlywood;
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    transform: rotate(-10deg);
+}
+.image_1 {
+    font-weight:bold;
+}
+.image2{
+}
+.image_2 {
+    position: absolute;
+    top: 60px;
+    left: 725px;
+    width: 250px;
+    height: 180px;
+    box-shadow: 0px 0px 20px #000000;
+    transition-duration:1s;
+}
+ .image_2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px #000000;
+}
+ .image3{
+     float:left;
+     position:absolute;
+     top:110px;
+     color:mediumaquamarine;
+     right:100px;
+     font-size:30px;
+     transform:rotate(-10deg);
+ }
+.image_3{
+    float:right;
+    position:absolute;
+    top:225px;
+    left:1050px;
+}
+
+
+.foot{
+	height:450px;
+	background-color:cornflowerblue;
+}
+.imformation{
+	position:relative;
+}
+.buttongroup{
+	padding:0 0 0 80px;
+}
+.b_group1{
+	float:left;
+	font-size:17px;
+	font-weight:bold;
+	padding-right:2px;
+	padding-top:20px;
+}
+.b_group1 button{
+	border-radius:10px 0 0 0px;
+	border-style: none;
+	width:90px;
+	height:40px;
+	transition-duration:0.6s;
+}
+.b_group1 button:hover{
+	box-shadow: 0px 0px 5px #080808 inset;
+	background-color:lightblue;
+}
+.b_group2{
+	float:left;
+	font-size:17px;
+	font-weight:bold;
+	padding-right:2px;
+	padding-top:20px;
+}
+.b_group2 button{
+	border-style: none;
+	width:90px;
+	height:40px;
+	transition-duration:0.6s;
+}
+.b_group2 button:hover{
+	box-shadow: 0px 0px 5px #080808 inset;
+	background-color:lightblue;
+}
+.b_group3{
+	border-style: none;
+	float:left;
+	font-size:17px;
+	font-weight:bold;
+	padding-top:20px;
+}
+.b_group3 button{
+	border-radius:0 10px 0px 0;
+	border-style: none;
+	width:90px;
+	height:40px;
+	transition-duration:0.6s;
+}
+.b_group3 button:hover{
+	box-shadow: 0px 0px 5px #080808 inset;
+	background-color:lightblue;
+}
+.text{
+	width:700px;
+	height:350px;
+	background-color:white;
+	float:left;
+	position:relative;
+	top:60px;
+	right:274px;
+	opacity:0.7;
+	border-radius:0 10px 10px 10px;
+}
+.itme{
+	font-size:55px;
+	font-weight:bold;
+	position:absolute;
+	right:200px;
+	top:160px;
+}
+
+
+
+
+
+.comment{
+	height:800px;
+	background:lightblue;
+	position:relative;
+}
+.comment_title{
+	font-size:55px;
+	font-weight:bold;
+	padding:40px 0px 10px 100px 
+}
+.leave{
+	position:absolute;
+	right:50px;
+	top:50px;
+}
+.leave button{
+	width:140px;
+	height:70px;
+	border-radius:10px;
+	border-style:none;
+	background-color:cornflowerblue;
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+	box-shadow:0 0 10px #000;
+	transition-duration:0.6s;
+}
+.leave button:hover{
+	background-color:darkslategrey;
+}
+.bin_comment{
+	border:2px solid #eeeeee;
+	width:1200px;
+	height:600px;
+	position:absolute;
+	left:100px;
+	border-radius:30px 30px 30px 30px;
+	background-color:lightgrey;
+	opacity:0.5;
+}
+.content{
+	padding-left:50px;
+	padding-top:50px;
+	padding-bottom:20px;
+	padding-right:100px;
+	font-size:20px;
+	color:black;
+}
+.content_b{
+	border:1px solid #000000;
+	border-bottom:3px solid #000;
+	padding:20px;
+	padding-left:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

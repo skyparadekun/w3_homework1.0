@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	<link href="../static/css/register.css" rel="stylesheet" type="text/css" />
+    <title>Register</title>
+</head>
+<body>
+<div class="main">
+<h2 class="title">请&nbsp;&nbsp;登&nbsp;&nbsp;录</h2>
+<form role="form" method="post" action="{%url 'Register1' %}">
+	{% csrf_token %}
+	<div class="text1">
+	<p class="warnning">{{warnning}}</p>
+	<b>用户名</b>
+	<div class="input1">
+	<input type="text" class="name1" name="ursName"></input>
+	</div>
+	</div>
+	<div class="text2">
+	<b>密码</b>
+	<div class="input1">
+	<input type="text" class="name2" name="ursPassword"></input>
+	</div>
+	</div>
+	<button class="button">登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+</form>
+</div>
+</body>

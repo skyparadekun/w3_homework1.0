@@ -1,0 +1,47 @@
+.title{
+	padding-left:140px;
+	margin-left:100px;
+	color:#337ab7;
+}
+.main{
+	width:600px;
+	margin:45px auto 0 auto;
+	border:5px solid #eeeeee;
+	background:#fbfbfb;
+}
+.text1{
+	margin:40px 0 20px 200px;
+}
+.text1 p{
+	padding-left:40px;
+	font-weight:bold;
+	color:red;
+}
+.name1{
+	width:210px;
+}
+.text2{
+	margin:0px 0 20px 200px;
+}
+.name2{
+	width:210px;
+}
+.text3{
+	margin:0px 0 20px 200px;
+}	
+.name3{
+	width:210px;
+}
+.button{
+	border-radius: 5px;
+    background-color:lightblue;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-style: none;
+	font-weight:bold;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    box-shadow: 0px 0px 10px #888888;
+	margin:20px 0px 80px 250px;
+}
